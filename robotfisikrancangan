@@ -1,0 +1,35 @@
+  Rancangan dan skema RoboMath yang digunakan pada pelajaran
+
+
+
+2. Pemetaan pin yang akan kita uji
+AI Thinker ESP32-CAM memiliki keterbatasan GPIO karena sebagian besar pin sudah digunakan kamera OV2640. GPIO26, 27, 32, 25, 23, dan 22, misalnya, tidak boleh kita gunakan untuk motor karena merupakan bagian dari konfigurasi kamera.
+GitHub+1
+Saya mengusulkan pemetaan awal berikut:
+Pemetaan sementara — belum diuji pada robot
+L298N
+ESP32-CAM
+Fungsi
+IN1
+GPIO 2
+Motor kiri
+IN2
+GPIO 12
+Motor kiri
+IN3
+GPIO 13
+Motor kanan
+IN4
+GPIO 14
+Motor kanan
+ENA
+Jumper terpasang
+Kecepatan penuh
+ENB
+Jumper terpasang
+Kecepatan penuh
+
+Motor yang digunakan
+
+Microcntoller yang digunakan
+
